@@ -1,3 +1,4 @@
+---
 description: Use the same pattern when defining parameters.
 ms.date: 03/20/2026
 ms.topic: reference
@@ -55,7 +56,7 @@ function g {
 When the rule sets parameters definition kind to `ParamBlock`:
 
 ```powershell
-# Inorrect
+# Incorrect
 function f([Parameter()]$FirstParam) {
     return
 }
