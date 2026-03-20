@@ -175,10 +175,10 @@ items:
             href: PSScriptAnalyzer/Rules/UseCompatibleTypes.md
           - name: UseConsistentIndentation
             href: PSScriptAnalyzer/Rules/UseConsistentIndentation.md
-          - name: UseConsistentParametersKind
-            href: PSScriptAnalyzer/Rules/UseConsistentParametersKind.md
           - name: UseConsistentParameterSetName
             href: PSScriptAnalyzer/Rules/UseConsistentParameterSetName.md
+          - name: UseConsistentParametersKind
+            href: PSScriptAnalyzer/Rules/UseConsistentParametersKind.md
           - name: UseConsistentWhitespace
             href: PSScriptAnalyzer/Rules/UseConsistentWhitespace.md
           - name: UseConstrainedLanguageMode
@@ -197,10 +197,10 @@ items:
             href: PSScriptAnalyzer/Rules/UsePSCredentialType.md
           - name: UseShouldProcessForStateChangingFunctions
             href: PSScriptAnalyzer/Rules/UseShouldProcessForStateChangingFunctions.md
-          - name: UseSingularNouns
-            href: PSScriptAnalyzer/Rules/UseSingularNouns.md
           - name: UseSingleValueFromPipelineParameter
             href: PSScriptAnalyzer/Rules/UseSingleValueFromPipelineParameter.md
+          - name: UseSingularNouns
+            href: PSScriptAnalyzer/Rules/UseSingularNouns.md
           - name: UseSupportsShouldProcess
             href: PSScriptAnalyzer/Rules/UseSupportsShouldProcess.md
           - name: UseToExportFieldsInManifest
