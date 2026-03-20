@@ -136,7 +136,8 @@ of disallowed .NET types.
 
 Use `New-Object PSObject` with `Add-Member` or hashtables instead of classes.
 
-**Important**: `[PSCustomObject]@{}` syntax is NOT allowed in CLM because it uses type casting.
+> [!IMPORTANT]
+> `[PSCustomObject]@{}` syntax is NOT allowed in CLM because it uses type casting.
 
 ### Avoid XAML
 
