@@ -23,77 +23,81 @@ title: List of PSScriptAnalyzer rules
 | [AvoidAssignmentToAutomaticVariable][03]           | Warning     | Always enabled |              |
 | [AvoidDefaultValueForMandatoryParameter][04]       | Warning     | Always enabled |              |
 | [AvoidDefaultValueSwitchParameter][05]             | Warning     | Always enabled |              |
-| [AvoidExclaimOperator][06]                         | Warning     |    Disabled    |     Yes      |
-| [AvoidGlobalAliases][07]                           | Warning     | Always enabled |              |
-| [AvoidGlobalFunctions][08]                         | Warning     | Always enabled |              |
-| [AvoidGlobalVars][09]                              | Warning     | Always enabled |              |
-| [AvoidInvokingEmptyMembers][10]                    | Warning     | Always enabled |              |
-| [AvoidLongLines][11]                               | Warning     |    Disabled    |     Yes      |
-| [AvoidMultipleTypeAttributes][12]                  | Warning     | Always enabled |              |
-| [AvoidNullOrEmptyHelpMessageAttribute][13]         | Warning     | Always enabled |              |
-| [AvoidOverwritingBuiltInCmdlets][14]               | Warning     |    Enabled     |     Yes      |
-| [AvoidReservedWordsAsFunctionNames][15]            | Warning     | Always enabled |              |
-| [AvoidSemicolonsAsLineTerminators][16]             | Warning     |    Disabled    |     Yes      |
-| [AvoidShouldContinueWithoutForce][17]              | Warning     | Always enabled |              |
-| [AvoidTrailingWhitespace][18]                      | Information | Always enabled |              |
-| [AvoidUsingAllowUnencryptedAuthentication][19]     | Warning     | Always enabled |              |
-| [AvoidUsingBrokenHashAlgorithms][20]               | Warning     | Always enabled |              |
-| [AvoidUsingCmdletAliases][21]                      | Warning     | Always enabled |     Yes      |
-| [AvoidUsingComputerNameHardcoded][22]              | Error       | Always enabled |              |
-| [AvoidUsingConvertToSecureStringWithPlainText][23] | Error       | Always enabled |              |
-| [AvoidUsingDeprecatedManifestFields][24]           | Warning     | Always enabled |              |
-| [AvoidUsingDoubleQuotesForConstantString][25]      | Information |    Disabled    |     Yes      |
-| [AvoidUsingEmptyCatchBlock][26]                    | Warning     | Always enabled |              |
-| [AvoidUsingInvokeExpression][27]                   | Warning     | Always enabled |              |
-| [AvoidUsingPlainTextForPassword][28]               | Warning     | Always enabled |              |
-| [AvoidUsingPositionalParameters][29]               | Information |    Enabled     |     Yes      |
-| [AvoidUsingUsernameAndPasswordParams][30]          | Error       | Always enabled |              |
-| [AvoidUsingWMICmdlet][31]                          | Warning     | Always enabled |              |
-| [AvoidUsingWriteHost][32]                          | Warning     | Always enabled |              |
-| [DSCDscExamplesPresent][33]                        | Information | Always enabled |              |
-| [DSCDscTestsPresent][34]                           | Information | Always enabled |              |
-| [DSCReturnCorrectTypesForDSCFunctions][35]         | Information | Always enabled |              |
-| [DSCStandardDSCFunctionsInResource][36]            | Error       | Always enabled |              |
-| [DSCUseIdenticalMandatoryParametersForDSC][37]     | Error       | Always enabled |              |
-| [DSCUseIdenticalParametersForDSC][38]              | Error       | Always enabled |              |
-| [DSCUseVerboseMessageInDSCResource][39]            | Information | Always enabled |              |
-| [MisleadingBacktick][40]                           | Warning     | Always enabled |              |
-| [MissingModuleManifestField][41]                   | Warning     | Always enabled |              |
-| [PlaceCloseBrace][42]                              | Warning     |    Disabled    |     Yes      |
-| [PlaceOpenBrace][43]                               | Warning     |    Disabled    |     Yes      |
-| [PossibleIncorrectComparisonWithNull][44]          | Warning     | Always enabled |              |
-| [PossibleIncorrectUsageOfAssignmentOperator][45]   | Information | Always enabled |              |
-| [PossibleIncorrectUsageOfRedirectionOperator][46]  | Information | Always enabled |              |
-| [ProvideCommentHelp][47]                           | Information |    Enabled     |     Yes      |
-| [ReservedCmdletChar][48]                           | Error       | Always enabled |              |
-| [ReservedParams][49]                               | Error       | Always enabled |              |
-| [ReviewUnusedParameter][50]                        | Warning     | Always enabled |     Yes      |
-| [ShouldProcess][51]                                | Warning     | Always enabled |              |
-| [UseApprovedVerbs][52]                             | Warning     | Always enabled |              |
-| [UseBOMForUnicodeEncodedFile][53]                  | Warning     | Always enabled |              |
-| [UseCmdletCorrectly][54]                           | Warning     | Always enabled |              |
-| [UseCompatibleCmdlets][55]                         | Warning     | Always enabled |     Yes      |
-| [UseCompatibleCommands][56]                        | Warning     |    Disabled    |     Yes      |
-| [UseCompatibleSyntax][57]                          | Warning     |    Disabled    |     Yes      |
-| [UseCompatibleTypes][58]                           | Warning     |    Disabled    |     Yes      |
-| [UseConsistentIndentation][59]                     | Warning     |    Disabled    |     Yes      |
-| [UseConsistentParameterSetName][60]                | Warning     |    Disabled    |     Yes      |
-| [UseConsistentParametersKind][61]                  | Warning     |    Disabled    |     Yes      |
-| [UseConsistentWhitespace][62]                      | Warning     |    Disabled    |     Yes      |
-| [UseConstrainedLanguageMode][63]                   | Warning     |    Disabled    |     Yes      |
-| [UseCorrectCasing][64]                             | Information |    Disabled    |     Yes      |
-| [UseDeclaredVarsMoreThanAssignments][65]           | Warning     | Always enabled |              |
-| [UseLiteralInitializerForHashtable][66]            | Warning     | Always enabled |              |
-| [UseOutputTypeCorrectly][67]                       | Information | Always enabled |              |
-| [UseProcessBlockForPipelineCommand][68]            | Warning     | Always enabled |              |
-| [UsePSCredentialType][69]                          | Warning     | Always enabled |              |
-| [UseShouldProcessForStateChangingFunctions][70]    | Warning     | Always enabled |              |
-| [UseSingleValueFromPipelineParameter][71]          | Warning     |    Disabled    |     Yes      |
-| [UseSingularNouns][72]                             | Warning     |    Enabled     |     Yes      |
-| [UseSupportsShouldProcess][73]                     | Warning     | Always enabled |              |
-| [UseToExportFieldsInManifest][74]                  | Warning     | Always enabled |              |
-| [UseUsingScopeModifierInNewRunspaces][75]          | Warning     | Always enabled |              |
-| [UseUTF8EncodingForHelpFile][76]                   | Warning     | Always enabled |              |
+| [AvoidDynamicallyCreatingVariableNames][06]        | Information |    Disabled    |     Yes      |
+| [AvoidExclaimOperator][07]                         | Warning     |    Disabled    |     Yes      |
+| [AvoidGlobalAliases][08]                           | Warning     | Always enabled |              |
+| [AvoidGlobalFunctions][09]                         | Warning     | Always enabled |              |
+| [AvoidGlobalVars][10]                              | Warning     | Always enabled |              |
+| [AvoidInvokingEmptyMembers][11]                    | Warning     | Always enabled |              |
+| [AvoidLongLines][12]                               | Warning     |    Disabled    |     Yes      |
+| [AvoidMultipleTypeAttributes][13]                  | Warning     | Always enabled |              |
+| [AvoidNullOrEmptyHelpMessageAttribute][14]         | Warning     | Always enabled |              |
+| [AvoidOverwritingBuiltInCmdlets][15]               | Warning     |    Enabled     |     Yes      |
+| [AvoidReservedWordsAsFunctionNames][16]            | Warning     | Always enabled |              |
+| [AvoidSemicolonsAsLineTerminators][17]             | Warning     |    Disabled    |     Yes      |
+| [AvoidShouldContinueWithoutForce][18]              | Warning     | Always enabled |              |
+| [AvoidTrailingWhitespace][19]                      | Information | Always enabled |              |
+| [AvoidUsingAllowUnencryptedAuthentication][20]     | Warning     | Always enabled |              |
+| [AvoidUsingArrayList][21]                          | Warning     |    Disabled    |     Yes      |
+| [AvoidUsingBrokenHashAlgorithms][22]               | Warning     | Always enabled |              |
+| [AvoidUsingCmdletAliases][23]                      | Warning     | Always enabled |     Yes      |
+| [AvoidUsingComputerNameHardcoded][24]              | Error       | Always enabled |              |
+| [AvoidUsingConvertToSecureStringWithPlainText][25] | Error       | Always enabled |              |
+| [AvoidUsingDeprecatedManifestFields][26]           | Warning     | Always enabled |              |
+| [AvoidUsingDoubleQuotesForConstantString][27]      | Information |    Disabled    |     Yes      |
+| [AvoidUsingEmptyCatchBlock][28]                    | Warning     | Always enabled |              |
+| [AvoidUsingInvokeExpression][29]                   | Warning     | Always enabled |              |
+| [AvoidUsingPlainTextForPassword][30]               | Warning     | Always enabled |              |
+| [AvoidUsingPositionalParameters][31]               | Information | Always enabled |              |
+| [AvoidUsingUsernameAndPasswordParams][32]          | Error       | Always enabled |              |
+| [AvoidUsingWMICmdlet][33]                          | Warning     | Always enabled |              |
+| [AvoidUsingWriteHost][34]                          | Warning     | Always enabled |              |
+| [DSCDscExamplesPresent][35]                        | Information | Always enabled |              |
+| [DSCDscTestsPresent][36]                           | Information | Always enabled |              |
+| [DSCReturnCorrectTypesForDSCFunctions][37]         | Information | Always enabled |              |
+| [DSCStandardDSCFunctionsInResource][38]            | Error       | Always enabled |              |
+| [DSCUseIdenticalMandatoryParametersForDSC][39]     | Error       | Always enabled |              |
+| [DSCUseIdenticalParametersForDSC][40]              | Error       | Always enabled |              |
+| [DSCUseVerboseMessageInDSCResource][41]            | Information | Always enabled |              |
+| [InvalidMultiDotValue][42]                         | Error       |    Disabled    |     Yes      |
+| [MisleadingBacktick][43]                           | Warning     | Always enabled |              |
+| [MissingModuleManifestField][44]                   | Warning     | Always enabled |              |
+| [MissingTryBlock][45]                              | Warning     |    Disabled    |     Yes      |
+| [PlaceCloseBrace][46]                              | Warning     |    Disabled    |     Yes      |
+| [PlaceOpenBrace][47]                               | Warning     |    Disabled    |     Yes      |
+| [PossibleIncorrectComparisonWithNull][48]          | Warning     | Always enabled |              |
+| [PossibleIncorrectUsageOfAssignmentOperator][49]   | Information | Always enabled |              |
+| [PossibleIncorrectUsageOfRedirectionOperator][50]  | Information | Always enabled |              |
+| [ProvideCommentHelp][51]                           | Information |    Enabled     |     Yes      |
+| [ReservedCmdletChar][52]                           | Error       | Always enabled |              |
+| [ReservedParams][53]                               | Error       | Always enabled |              |
+| [ReviewUnusedParameter][54]                        | Warning     | Always enabled |     Yes      |
+| [ShouldProcess][55]                                | Warning     | Always enabled |              |
+| [UseApprovedVerbs][56]                             | Warning     | Always enabled |              |
+| [UseBOMForUnicodeEncodedFile][57]                  | Warning     | Always enabled |              |
+| [UseCmdletCorrectly][58]                           | Warning     | Always enabled |              |
+| [UseCompatibleCmdlets][59]                         | Warning     | Always enabled |     Yes      |
+| [UseCompatibleCommands][60]                        | Warning     |    Disabled    |     Yes      |
+| [UseCompatibleSyntax][61]                          | Warning     |    Disabled    |     Yes      |
+| [UseCompatibleTypes][62]                           | Warning     |    Disabled    |     Yes      |
+| [UseConsistentIndentation][63]                     | Warning     |    Disabled    |     Yes      |
+| [UseConsistentParameterSetName][64]                | Warning     |    Disabled    |     Yes      |
+| [UseConsistentParametersKind][65]                  | Warning     |    Disabled    |     Yes      |
+| [UseConsistentWhitespace][66]                      | Warning     |    Disabled    |     Yes      |
+| [UseConstrainedLanguageMode][67]                   | Warning     |    Disabled    |     Yes      |
+| [UseCorrectCasing][68]                             | Information |    Disabled    |     Yes      |
+| [UseDeclaredVarsMoreThanAssignments][69]           | Warning     | Always enabled |              |
+| [UseLiteralInitializerForHashtable][70]            | Warning     | Always enabled |              |
+| [UseOutputTypeCorrectly][71]                       | Information | Always enabled |              |
+| [UseProcessBlockForPipelineCommand][72]            | Warning     | Always enabled |              |
+| [UsePSCredentialType][73]                          | Warning     | Always enabled |              |
+| [UseShouldProcessForStateChangingFunctions][74]    | Warning     | Always enabled |              |
+| [UseSingleValueFromPipelineParameter][75]          | Warning     |    Disabled    |     Yes      |
+| [UseSingularNouns][76]                             | Warning     |    Enabled     |     Yes      |
+| [UseSupportsShouldProcess][77]                     | Warning     | Always enabled |              |
+| [UseToExportFieldsInManifest][78]                  | Warning     | Always enabled |              |
+| [UseUsingScopeModifierInNewRunspaces][79]          | Warning     | Always enabled |              |
+| [UseUTF8EncodingForHelpFile][80]                   | Warning     | Always enabled |              |
 
 <!-- link references -->
 [01]: ../using-scriptanalyzer.md#suppressing-rules
@@ -101,74 +105,78 @@ title: List of PSScriptAnalyzer rules
 [03]: AvoidAssignmentToAutomaticVariable.md
 [04]: AvoidDefaultValueForMandatoryParameter.md
 [05]: AvoidDefaultValueSwitchParameter.md
-[06]: AvoidExclaimOperator.md
-[07]: AvoidGlobalAliases.md
-[08]: AvoidGlobalFunctions.md
-[09]: AvoidGlobalVars.md
-[10]: AvoidInvokingEmptyMembers.md
-[11]: AvoidLongLines.md
-[12]: AvoidMultipleTypeAttributes.md
-[13]: AvoidNullOrEmptyHelpMessageAttribute.md
-[14]: AvoidOverwritingBuiltInCmdlets.md
-[15]: AvoidReservedWordsAsFunctionNames.md
-[16]: AvoidSemicolonsAsLineTerminators.md
-[17]: AvoidShouldContinueWithoutForce.md
-[18]: AvoidTrailingWhitespace.md
-[19]: AvoidUsingAllowUnencryptedAuthentication.md
-[20]: AvoidUsingBrokenHashAlgorithms.md
-[21]: AvoidUsingCmdletAliases.md
-[22]: AvoidUsingComputerNameHardcoded.md
-[23]: AvoidUsingConvertToSecureStringWithPlainText.md
-[24]: AvoidUsingDeprecatedManifestFields.md
-[25]: AvoidUsingDoubleQuotesForConstantString.md
-[26]: AvoidUsingEmptyCatchBlock.md
-[27]: AvoidUsingInvokeExpression.md
-[28]: AvoidUsingPlainTextForPassword.md
-[29]: AvoidUsingPositionalParameters.md
-[30]: AvoidUsingUsernameAndPasswordParams.md
-[31]: AvoidUsingWMICmdlet.md
-[32]: AvoidUsingWriteHost.md
-[33]: DSCDscExamplesPresent.md
-[34]: DSCDscTestsPresent.md
-[35]: DSCReturnCorrectTypesForDSCFunctions.md
-[36]: DSCStandardDSCFunctionsInResource.md
-[37]: DSCUseIdenticalMandatoryParametersForDSC.md
-[38]: DSCUseIdenticalParametersForDSC.md
-[39]: DSCUseVerboseMessageInDSCResource.md
-[40]: MisleadingBacktick.md
-[41]: MissingModuleManifestField.md
-[42]: PlaceCloseBrace.md
-[43]: PlaceOpenBrace.md
-[44]: PossibleIncorrectComparisonWithNull.md
-[45]: PossibleIncorrectUsageOfAssignmentOperator.md
-[46]: PossibleIncorrectUsageOfRedirectionOperator.md
-[47]: ProvideCommentHelp.md
-[48]: ReservedCmdletChar.md
-[49]: ReservedParams.md
-[50]: ReviewUnusedParameter.md
-[51]: ShouldProcess.md
-[52]: UseApprovedVerbs.md
-[53]: UseBOMForUnicodeEncodedFile.md
-[54]: UseCmdletCorrectly.md
-[55]: UseCompatibleCmdlets.md
-[56]: UseCompatibleCommands.md
-[57]: UseCompatibleSyntax.md
-[58]: UseCompatibleTypes.md
-[59]: UseConsistentIndentation.md
-[60]: UseConsistentParameterSetName.md
-[61]: UseConsistentParametersKind.md
-[62]: UseConsistentWhitespace.md
-[63]: UseConstrainedLanguageMode.md
-[64]: UseCorrectCasing.md
-[65]: UseDeclaredVarsMoreThanAssignments.md
-[66]: UseLiteralInitializerForHashtable.md
-[67]: UseOutputTypeCorrectly.md
-[68]: UseProcessBlockForPipelineCommand.md
-[69]: UsePSCredentialType.md
-[70]: UseShouldProcessForStateChangingFunctions.md
-[71]: UseSingleValueFromPipelineParameter.md
-[72]: UseSingularNouns.md
-[73]: UseSupportsShouldProcess.md
-[74]: UseToExportFieldsInManifest.md
-[75]: UseUsingScopeModifierInNewRunspaces.md
-[76]: UseUTF8EncodingForHelpFile.md
+[06]: AvoidDynamicallyCreatingVariableNames.md
+[07]: AvoidExclaimOperator.md
+[08]: AvoidGlobalAliases.md
+[09]: AvoidGlobalFunctions.md
+[10]: AvoidGlobalVars.md
+[11]: AvoidInvokingEmptyMembers.md
+[12]: AvoidLongLines.md
+[13]: AvoidMultipleTypeAttributes.md
+[14]: AvoidNullOrEmptyHelpMessageAttribute.md
+[15]: AvoidOverwritingBuiltInCmdlets.md
+[16]: AvoidReservedWordsAsFunctionNames.md
+[17]: AvoidSemicolonsAsLineTerminators.md
+[18]: AvoidShouldContinueWithoutForce.md
+[19]: AvoidTrailingWhitespace.md
+[20]: AvoidUsingAllowUnencryptedAuthentication.md
+[21]: AvoidUsingArrayList.md
+[22]: AvoidUsingBrokenHashAlgorithms.md
+[23]: AvoidUsingCmdletAliases.md
+[24]: AvoidUsingComputerNameHardcoded.md
+[25]: AvoidUsingConvertToSecureStringWithPlainText.md
+[26]: AvoidUsingDeprecatedManifestFields.md
+[27]: AvoidUsingDoubleQuotesForConstantString.md
+[28]: AvoidUsingEmptyCatchBlock.md
+[29]: AvoidUsingInvokeExpression.md
+[30]: AvoidUsingPlainTextForPassword.md
+[31]: AvoidUsingPositionalParameters.md
+[32]: AvoidUsingUsernameAndPasswordParams.md
+[33]: AvoidUsingWMICmdlet.md
+[34]: AvoidUsingWriteHost.md
+[35]: DSCDscExamplesPresent.md
+[36]: DSCDscTestsPresent.md
+[37]: DSCReturnCorrectTypesForDSCFunctions.md
+[38]: DSCStandardDSCFunctionsInResource.md
+[39]: DSCUseIdenticalMandatoryParametersForDSC.md
+[40]: DSCUseIdenticalParametersForDSC.md
+[41]: DSCUseVerboseMessageInDSCResource.md
+[42]: InvalidMultiDotValue.md
+[43]: MisleadingBacktick.md
+[44]: MissingModuleManifestField.md
+[45]: MissingTryBlock.md
+[46]: PlaceCloseBrace.md
+[47]: PlaceOpenBrace.md
+[48]: PossibleIncorrectComparisonWithNull.md
+[49]: PossibleIncorrectUsageOfAssignmentOperator.md
+[50]: PossibleIncorrectUsageOfRedirectionOperator.md
+[51]: ProvideCommentHelp.md
+[52]: ReservedCmdletChar.md
+[53]: ReservedParams.md
+[54]: ReviewUnusedParameter.md
+[55]: ShouldProcess.md
+[56]: UseApprovedVerbs.md
+[57]: UseBOMForUnicodeEncodedFile.md
+[58]: UseCmdletCorrectly.md
+[59]: UseCompatibleCmdlets.md
+[60]: UseCompatibleCommands.md
+[61]: UseCompatibleSyntax.md
+[62]: UseCompatibleTypes.md
+[63]: UseConsistentIndentation.md
+[64]: UseConsistentParameterSetName.md
+[65]: UseConsistentParametersKind.md
+[66]: UseConsistentWhitespace.md
+[67]: UseConstrainedLanguageMode.md
+[68]: UseCorrectCasing.md
+[69]: UseDeclaredVarsMoreThanAssignments.md
+[70]: UseLiteralInitializerForHashtable.md
+[71]: UseOutputTypeCorrectly.md
+[72]: UseProcessBlockForPipelineCommand.md
+[73]: UsePSCredentialType.md
+[74]: UseShouldProcessForStateChangingFunctions.md
+[75]: UseSingleValueFromPipelineParameter.md
+[76]: UseSingularNouns.md
+[77]: UseSupportsShouldProcess.md
+[78]: UseToExportFieldsInManifest.md
+[79]: UseUsingScopeModifierInNewRunspaces.md
+[80]: UseUTF8EncodingForHelpFile.md
