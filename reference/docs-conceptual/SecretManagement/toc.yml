@@ -1,0 +1,21 @@
+items:
+  - name: SecretManagement and SecretStore
+    items:
+      - name: Overview
+        href: overview.md
+      - name: Understanding the security features of SecretManagement
+        href: security-concepts.md
+      - name: Get started
+        items:
+          - name: Get started with the SecretStore module
+            href: get-started/using-secretstore.md
+          - name: Understanding the SecretManagement module
+            href: get-started/understanding-secretmanagement.md
+      - name: How to
+        items:
+          - name: Managing a SecretStore vault
+            href: how-to/manage-secretstore.md
+          - name: Use the SecretStore in automation
+            href: how-to/using-secrets-in-automation.md
+          - name: Use Azure Key Vault in automation
+            href: how-to/using-azure-keyvault.md

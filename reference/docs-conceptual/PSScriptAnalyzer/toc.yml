@@ -1,0 +1,176 @@
+
+items:
+  - name: Overview
+    href: overview.md
+  - name: What's new in PSScriptAnalyzer
+    href: whats-new-in-pssa.md
+  - name: How to
+    items:
+      - name: Using PSScriptAnalyzer
+        href: using-scriptanalyzer.md
+      - name: Rules and recommendations
+        href: rules-recommendations.md
+      - name: Creating custom rules
+        href: create-custom-rule.md
+  - name: Rules reference
+    items:
+      - name: Rules overview
+        href: Rules/README.md
+      - name: AlignAssignmentStatement
+        href: Rules/AlignAssignmentStatement.md
+      - name: AvoidAssignmentToAutomaticVariable
+        href: Rules/AvoidAssignmentToAutomaticVariable.md
+      - name: AvoidDefaultValueForMandatoryParameter
+        href: Rules/AvoidDefaultValueForMandatoryParameter.md
+      - name: AvoidDefaultValueSwitchParameter
+        href: Rules/AvoidDefaultValueSwitchParameter.md
+      - name: AvoidDynamicallyCreatingVariableNames
+        href: Rules/AvoidDynamicallyCreatingVariableNames.md
+      - name: AvoidExclaimOperator
+        href: Rules/AvoidExclaimOperator.md
+      - name: AvoidGlobalAliases
+        href: Rules/AvoidGlobalAliases.md
+      - name: AvoidGlobalFunctions
+        href: Rules/AvoidGlobalFunctions.md
+      - name: AvoidGlobalVars
+        href: Rules/AvoidGlobalVars.md
+      - name: AvoidInvokingEmptyMembers
+        href: Rules/AvoidInvokingEmptyMembers.md
+      - name: AvoidLongLines
+        href: Rules/AvoidLongLines.md
+      - name: AvoidMultipleTypeAttributes
+        href: Rules/AvoidMultipleTypeAttributes.md
+      - name: AvoidNullOrEmptyHelpMessageAttribute
+        href: Rules/AvoidNullOrEmptyHelpMessageAttribute.md
+      - name: AvoidOverwritingBuiltInCmdlets
+        href: Rules/AvoidOverwritingBuiltInCmdlets.md
+      - name: AvoidReservedWordsAsFunctionNames
+        href: Rules/AvoidReservedWordsAsFunctionNames.md
+      - name: AvoidSemicolonsAsLineTerminators
+        href: Rules/AvoidSemicolonsAsLineTerminators.md
+      - name: AvoidShouldContinueWithoutForce
+        href: Rules/AvoidShouldContinueWithoutForce.md
+      - name: AvoidTrailingWhitespace
+        href: Rules/AvoidTrailingWhitespace.md
+      - name: AvoidUsingAllowUnencryptedAuthentication
+        href: Rules/AvoidUsingAllowUnencryptedAuthentication.md
+      - name: AvoidUsingArrayList
+        href: Rules/AvoidUsingArrayList.md
+      - name: AvoidUsingBrokenHashAlgorithms
+        href: Rules/AvoidUsingBrokenHashAlgorithms.md
+      - name: AvoidUsingCmdletAliases
+        href: Rules/AvoidUsingCmdletAliases.md
+      - name: AvoidUsingComputerNameHardcoded
+        href: Rules/AvoidUsingComputerNameHardcoded.md
+      - name: AvoidUsingConvertToSecureStringWithPlainText
+        href: Rules/AvoidUsingConvertToSecureStringWithPlainText.md
+      - name: AvoidUsingDeprecatedManifestFields
+        href: Rules/AvoidUsingDeprecatedManifestFields.md
+      - name: AvoidUsingDoubleQuotesForConstantString
+        href: Rules/AvoidUsingDoubleQuotesForConstantString.md
+      - name: AvoidUsingEmptyCatchBlock
+        href: Rules/AvoidUsingEmptyCatchBlock.md
+      - name: AvoidUsingInvokeExpression
+        href: Rules/AvoidUsingInvokeExpression.md
+      - name: AvoidUsingPlainTextForPassword
+        href: Rules/AvoidUsingPlainTextForPassword.md
+      - name: AvoidUsingPositionalParameters
+        href: Rules/AvoidUsingPositionalParameters.md
+      - name: AvoidUsingUsernameAndPasswordParams
+        href: Rules/AvoidUsingUsernameAndPasswordParams.md
+      - name: AvoidUsingWMICmdlet
+        href: Rules/AvoidUsingWMICmdlet.md
+      - name: AvoidUsingWriteHost
+        href: Rules/AvoidUsingWriteHost.md
+      - name: DSCDscExamplesPresent
+        href: Rules/DSCDscExamplesPresent.md
+      - name: DSCDscTestsPresent
+        href: Rules/DSCDscTestsPresent.md
+      - name: DSCReturnCorrectTypesForDSCFunctions
+        href: Rules/DSCReturnCorrectTypesForDSCFunctions.md
+      - name: DSCStandardDSCFunctionsInResource
+        href: Rules/DSCStandardDSCFunctionsInResource.md
+      - name: DSCUseIdenticalMandatoryParametersForDSC
+        href: Rules/DSCUseIdenticalMandatoryParametersForDSC.md
+      - name: DSCUseIdenticalParametersForDSC
+        href: Rules/DSCUseIdenticalParametersForDSC.md
+      - name: DSCUseVerboseMessageInDSCResource
+        href: Rules/DSCUseVerboseMessageInDSCResource.md
+      - name: InvalidMultiDotValue
+        href: Rules/InvalidMultiDotValue.md
+      - name: MisleadingBacktick
+        href: Rules/MisleadingBacktick.md
+      - name: MissingModuleManifestField
+        href: Rules/MissingModuleManifestField.md
+      - name: MissingTryBlock
+        href: Rules/MissingTryBlock.md
+      - name: PlaceCloseBrace
+        href: Rules/PlaceCloseBrace.md
+      - name: PlaceOpenBrace
+        href: Rules/PlaceOpenBrace.md
+      - name: PossibleIncorrectComparisonWithNull
+        href: Rules/PossibleIncorrectComparisonWithNull.md
+      - name: PossibleIncorrectUsageOfAssignmentOperator
+        href: Rules/PossibleIncorrectUsageOfAssignmentOperator.md
+      - name: PossibleIncorrectUsageOfRedirectionOperator
+        href: Rules/PossibleIncorrectUsageOfRedirectionOperator.md
+      - name: ProvideCommentHelp
+        href: Rules/ProvideCommentHelp.md
+      - name: ReservedCmdletChar
+        href: Rules/ReservedCmdletChar.md
+      - name: ReservedParams
+        href: Rules/ReservedParams.md
+      - name: ReviewUnusedParameter
+        href: Rules/ReviewUnusedParameter.md
+      - name: ShouldProcess
+        href: Rules/ShouldProcess.md
+      - name: UseApprovedVerbs
+        href: Rules/UseApprovedVerbs.md
+      - name: UseBOMForUnicodeEncodedFile
+        href: Rules/UseBOMForUnicodeEncodedFile.md
+      - name: UseCmdletCorrectly
+        href: Rules/UseCmdletCorrectly.md
+      - name: UseCompatibleCmdlets
+        href: Rules/UseCompatibleCmdlets.md
+      - name: UseCompatibleCommands
+        href: Rules/UseCompatibleCommands.md
+      - name: UseCompatibleSyntax
+        href: Rules/UseCompatibleSyntax.md
+      - name: UseCompatibleTypes
+        href: Rules/UseCompatibleTypes.md
+      - name: UseConsistentIndentation
+        href: Rules/UseConsistentIndentation.md
+      - name: UseConsistentParameterSetName
+        href: Rules/UseConsistentParameterSetName.md
+      - name: UseConsistentParametersKind
+        href: Rules/UseConsistentParametersKind.md
+      - name: UseConsistentWhitespace
+        href: Rules/UseConsistentWhitespace.md
+      - name: UseConstrainedLanguageMode
+        href: Rules/UseConstrainedLanguageMode.md
+      - name: UseCorrectCasing
+        href: Rules/UseCorrectCasing.md
+      - name: UseDeclaredVarsMoreThanAssignments
+        href: Rules/UseDeclaredVarsMoreThanAssignments.md
+      - name: UseLiteralInitializerForHashtable
+        href: Rules/UseLiteralInitializerForHashtable.md
+      - name: UseOutputTypeCorrectly
+        href: Rules/UseOutputTypeCorrectly.md
+      - name: UseProcessBlockForPipelineCommand
+        href: Rules/UseProcessBlockForPipelineCommand.md
+      - name: UsePSCredentialType
+        href: Rules/UsePSCredentialType.md
+      - name: UseShouldProcessForStateChangingFunctions
+        href: Rules/UseShouldProcessForStateChangingFunctions.md
+      - name: UseSingleValueFromPipelineParameter
+        href: Rules/UseSingleValueFromPipelineParameter.md
+      - name: UseSingularNouns
+        href: Rules/UseSingularNouns.md
+      - name: UseSupportsShouldProcess
+        href: Rules/UseSupportsShouldProcess.md
+      - name: UseToExportFieldsInManifest
+        href: Rules/UseToExportFieldsInManifest.md
+      - name: UseUsingScopeModifierInNewRunspaces
+        href: Rules/UseUsingScopeModifierInNewRunspaces.md
+      - name: UseUTF8EncodingForHelpFile
+        href: Rules/UseUTF8EncodingForHelpFile.md

@@ -1,0 +1,15 @@
+items:
+  - name: Overview
+    href: overview.md
+  - name: Types of help in PowerShell
+    href: types-of-help.md
+  - name: Create new command help Markdown using PlatyPS
+    href: step-1-create-new-markdown-help.md
+  - name: Update Markdown help files using PlatyPS
+    href: step-1-update-markdown-help.md
+  - name: Edit Markdown help files
+    href: step-2-edit-markdown-help.md
+  - name: Test Markdown help files
+    href: step-3-test-markdown-help.md
+  - name: Convert and publish the help files
+    href: step-4-convert-publish-help.md
